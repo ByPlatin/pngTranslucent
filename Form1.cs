@@ -14,8 +14,8 @@ namespace pngTranslucent
         {
             OpenFileDialog openFileDialog = new OpenFileDialog
             {
-                Title = "Bir dosya seçin",
-                Filter = "Resim Dosyalarý (*.png)|*.png",
+                Title = "Select a file",
+                Filter = "Image Files (*.png)|*.png",
                 InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop)
             };
             if (openFileDialog.ShowDialog() == DialogResult.OK)
